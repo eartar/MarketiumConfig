@@ -1,9 +1,26 @@
+gateway:
+  ip: 192.168.1.24
+
 myEureka.user: 2
 myEureka.pass: 2
-
-
 
 eureka:
   client:
     service-url:
       defaultZone: http://${myEureka.user}:${myEureka.pass}@localhost:8010/eureka
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:postgresql://localhost/5432/postgres
+    username: postgres
+    password: admin
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
