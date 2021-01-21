@@ -16,8 +16,8 @@ spring:
 
   datasource:
     url: jdbc:postgresql://localhost/5432/postgres
-    username: postgres
-    password: admin
+    username: MarketiumWS
+    password: pass123
 
   rabbitmq:
     host: localhost
