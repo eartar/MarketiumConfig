@@ -1,4 +1,4 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://${myEureka.user}:${myEureka.pass}@localhost:8010/eureka
+      defaultZone: http://${myEureka.user}:${myEureka.pass}@localhost:8010/eureka2
